@@ -1,0 +1,286 @@
+﻿site_name: 启英泰伦文档中心
+theme: 
+  name: "material"
+  logo: "img/logo.png"
+  palette:
+      primary: "light blue"
+      accent: "Light Blue"
+  language: "zh"
+  features:
+    - search.highlight
+    - navigation.tabs
+nav:
+    - 首页: index.md
+    - 了解智能语音: 了解智能语音.md
+    - 启英泰伦介绍: 启英泰伦介绍.md
+    - 新手指南: 新手指南.md
+    - 硬件开发:
+        - 硬件选型指南: 硬件开发/硬件选型指南.md
+        - 芯片数据手册:
+            - CI1102芯片数据手册: 
+                - 芯片概述: 硬件开发/芯片数据手册/CI1102芯片数据手册/芯片概述.md
+                - 引脚描述: 硬件开发/芯片数据手册/CI1102芯片数据手册/引脚描述.md
+                - 系统描述: 硬件开发/芯片数据手册/CI1102芯片数据手册/系统描述.md
+                - 系统控制单元SCU: 硬件开发/芯片数据手册/CI1102芯片数据手册/系统控制单元SCU.md
+                - DMA: 硬件开发/芯片数据手册/CI1102芯片数据手册/DMA.md
+                - ADC: 硬件开发/芯片数据手册/CI1102芯片数据手册/ADC.md
+                - 通用定时器和PWM输出: 硬件开发/芯片数据手册/CI1102芯片数据手册/通用定时器和PWM输出.md
+                - 独立看门狗（IWTD）: 硬件开发/芯片数据手册/CI1102芯片数据手册/独立看门狗（IWTD）.md
+                - 窗口看门狗（WWTD）: 硬件开发/芯片数据手册/CI1102芯片数据手册/窗口看门狗（WWTD）.md
+                - IIC: 硬件开发/芯片数据手册/CI1102芯片数据手册/IIC.md
+                - GPIO: 硬件开发/芯片数据手册/CI1102芯片数据手册/GPIO.md
+                - IIS: 硬件开发/芯片数据手册/CI1102芯片数据手册/IIS.md
+                - UART: 硬件开发/芯片数据手册/CI1102芯片数据手册/UART.md
+                - SPI0: 硬件开发/芯片数据手册/CI1102芯片数据手册/SPI0.md
+                - 硬件设计: 硬件开发/芯片数据手册/CI1102芯片数据手册/硬件设计.md
+                - 软件设计: 硬件开发/芯片数据手册/CI1102芯片数据手册/软件设计.md
+                - 电气特性: 硬件开发/芯片数据手册/CI1102芯片数据手册/电气特性.md
+                - 封装信息: 硬件开发/芯片数据手册/CI1102芯片数据手册/封装信息.md
+                - 芯片订购信息: 硬件开发/芯片数据手册/CI1102芯片数据手册/芯片订购信息.md
+            - CI1103芯片数据手册: 
+                - 芯片概述: 硬件开发/芯片数据手册/CI1103芯片数据手册/芯片概述.md
+                - 引脚描述: 硬件开发/芯片数据手册/CI1103芯片数据手册/引脚描述.md
+                - 系统描述: 硬件开发/芯片数据手册/CI1103芯片数据手册/系统描述.md
+                - 系统控制单元SCU: 硬件开发/芯片数据手册/CI1103芯片数据手册/系统控制单元SCU.md
+                - DMA: 硬件开发/芯片数据手册/CI1103芯片数据手册/DMA.md
+                - ADC: 硬件开发/芯片数据手册/CI1103芯片数据手册/ADC.md
+                - 通用定时器和PWM输出: 硬件开发/芯片数据手册/CI1103芯片数据手册/通用定时器和PWM输出.md
+                - 独立看门狗（IWTD）: 硬件开发/芯片数据手册/CI1103芯片数据手册/独立看门狗（IWTD）.md
+                - 窗口看门狗（WWTD）: 硬件开发/芯片数据手册/CI1103芯片数据手册/窗口看门狗（WWTD）.md
+                - IIC: 硬件开发/芯片数据手册/CI1103芯片数据手册/IIC.md
+                - GPIO: 硬件开发/芯片数据手册/CI1103芯片数据手册/GPIO.md
+                - IIS: 硬件开发/芯片数据手册/CI1103芯片数据手册/IIS.md
+                - UART: 硬件开发/芯片数据手册/CI1103芯片数据手册/UART.md
+                - SPI0: 硬件开发/芯片数据手册/CI1103芯片数据手册/SPI0.md
+                - 硬件设计: 硬件开发/芯片数据手册/CI1103芯片数据手册/硬件设计.md
+                - 软件设计: 硬件开发/芯片数据手册/CI1103芯片数据手册/软件设计.md
+                - 电气特性: 硬件开发/芯片数据手册/CI1103芯片数据手册/电气特性.md
+                - 封装信息: 硬件开发/芯片数据手册/CI1103芯片数据手册/封装信息.md
+                - 芯片订购信息: 硬件开发/芯片数据手册/CI1103芯片数据手册/芯片订购信息.md
+            - CI1122芯片数据手册: 
+                - 芯片概述: 硬件开发/芯片数据手册/CI1122芯片数据手册/芯片概述.md
+                - 引脚描述: 硬件开发/芯片数据手册/CI1122芯片数据手册/引脚描述.md
+                - 系统描述: 硬件开发/芯片数据手册/CI1122芯片数据手册/系统描述.md
+                - 系统控制单元SCU: 硬件开发/芯片数据手册/CI1122芯片数据手册/系统控制单元SCU.md
+                - DMA: 硬件开发/芯片数据手册/CI1122芯片数据手册/DMA.md
+                - ADC: 硬件开发/芯片数据手册/CI1122芯片数据手册/ADC.md
+                - 通用定时器和PWM输出: 硬件开发/芯片数据手册/CI1122芯片数据手册/通用定时器和PWM输出.md
+                - 独立看门狗（IWTD）: 硬件开发/芯片数据手册/CI1122芯片数据手册/独立看门狗（IWTD）.md
+                - 窗口看门狗（WWTD）: 硬件开发/芯片数据手册/CI1122芯片数据手册/窗口看门狗（WWTD）.md
+                - IIC: 硬件开发/芯片数据手册/CI1122芯片数据手册/IIC.md
+                - GPIO: 硬件开发/芯片数据手册/CI1122芯片数据手册/GPIO.md
+                - IIS: 硬件开发/芯片数据手册/CI1122芯片数据手册/IIS.md
+                - UART: 硬件开发/芯片数据手册/CI1122芯片数据手册/UART.md
+                - 硬件设计: 硬件开发/芯片数据手册/CI1122芯片数据手册/硬件设计.md
+                - 软件设计: 硬件开发/芯片数据手册/CI1122芯片数据手册/软件设计.md
+                - 电气特性: 硬件开发/芯片数据手册/CI1122芯片数据手册/电气特性.md
+                - 封装信息: 硬件开发/芯片数据手册/CI1122芯片数据手册/封装信息.md
+                - 芯片订购信息: 硬件开发/芯片数据手册/CI1122芯片数据手册/芯片订购信息.md
+        - 模块数据手册:
+            - CI-B0XGS01S模块数据手册: 硬件开发/模块数据手册/CI-B0XGS01S模块数据手册.md
+            - CI-B0XGS01S-H模块数据手册: 硬件开发/模块数据手册/CI-B0XGS01S-H模块数据手册.md
+            - CI-B0XGS01J模块数据手册: 硬件开发/模块数据手册/CI-B0XGS01J模块数据手册.md
+            - CI-B0XGS03T模块数据手册: 硬件开发/模块数据手册/CI-B0XGS03T模块数据手册.md
+            - CI-B03GT02S模块数据手册: 硬件开发/模块数据手册/CI-B03GT02S模块数据手册.md
+            - CI-C22GS02S模块数据手册: 硬件开发/模块数据手册/CI-C22GS02S模块数据手册.md
+            - CI-B0XGS04J-BT2模块数据手册: 硬件开发/模块数据手册/CI-B0XGS04J-BT2模块数据手册.md
+        - 开发板套件说明: 硬件开发/开发板套件说明.md
+        - 产品结构设计: 硬件开发/产品结构设计.md
+        - 硬件设计资料: 硬件开发/硬件设计资料.md
+        - 硬件测试报告: 硬件开发/硬件测试报告.md
+        - 外围器件兼容列表: 硬件开发/外围器件兼容列表.md
+    - 软件开发:
+        - 使用说明: 软件开发/使用说明.md
+        - CI110X芯片SDK: 
+            - 目录: 软件开发/SDK/CI110X芯片SDK/CI110X芯片SDK.md
+            - 开发入门:     
+                - SDK概述: 软件开发/SDK/CI110X芯片SDK/start/CI110XSDK概述.md
+                - SDK Quick Start: 软件开发/SDK/CI110X芯片SDK/start/CI110X_SDK_Quick_Start.md
+                - 命令词和固件制作指南: 软件开发/SDK/CI110X芯片SDK/start/命令词和固件制作指南.md
+                - SDK软件结构: 软件开发/SDK/CI110X芯片SDK/start/SDK软件结构.md
+                - CI110X串口协议: 软件开发/SDK/CI110X芯片SDK/start/CI110X串口协议.md
+                - CI110XI2C协议: 软件开发/SDK/CI110X芯片SDK/start/CI110X I2C 协议.md
+                - CI110X语义ID说明: 软件开发/SDK/CI110X芯片SDK/start/CI110X语义ID文档说明.md
+                - 内存结构: 软件开发/SDK/CI110X芯片SDK/start/内存结构.md  
+                - 内存分配调整指南: 软件开发/SDK/CI110X芯片SDK/start/CI110X_SDK内存分配(icf)调整指南.md
+                - FLASH加密功能使用说明: 软件开发/SDK/CI110X芯片SDK/start/FLASH加密功能使用说明.md
+                - 低功耗使用说明: 软件开发/SDK/CI110X芯片SDK/start/低功耗使用说明.md
+            - 算法使用说明:
+                - 算法概述: 软件开发/SDK/CI110X芯片SDK/start/算法概述.md
+                - 语音识别使用说明: 软件开发/SDK/CI110X芯片SDK/components/语音识别使用说明.md
+                - DOA和语音增强使用说明: 软件开发/SDK/CI110X芯片SDK/components/语音增强使用说明.md
+                - 语音降噪使用说明: 软件开发/SDK/CI110X芯片SDK/components/语音降噪使用说明.md
+                - 回声消除使用说明: 软件开发/SDK/CI110X芯片SDK/components/回声消除使用说明.md
+                - 离线命令词自学习: 软件开发/SDK/CI110X芯片SDK/components/离线命令词自学习使用说明.md
+            - SDK组件:
+                - 命令词信息管理模块(command_info): 软件开发/SDK/CI110X芯片SDK/components/命令词信息表.md
+                - 提示音播放器(prompt_player): 软件开发/SDK/CI110X芯片SDK/components/提示音播放器.md
+                - 实时操作系统(FreeRTOS): 软件开发/SDK/CI110X芯片SDK/components/FreeRTOS.md
+                - 音频播放器(AUDIO PLAYER): 软件开发/SDK/CI110X芯片SDK/components/音频播放器.md
+                - 文件系统(FATFS): 软件开发/SDK/CI110X芯片SDK/components/FatFS.md
+                - 用户数据管理(NV DATA): 软件开发/SDK/CI110X芯片SDK/components/nvdata.md
+                - 存储控制(FLASH CTL): 软件开发/SDK/CI110X芯片SDK/components/flash_control.md
+                - TCP/IP协议栈(LWIP): 软件开发/SDK/CI110X芯片SDK/components/LWIP.md
+                - 系统监控(SYS MONITOR): 软件开发/SDK/CI110X芯片SDK/components/系统监控.md
+                - 灯控(LED): 软件开发/SDK/CI110X芯片SDK/components/led.md
+                - 单总线(ONE WIRE): 软件开发/SDK/CI110X芯片SDK/components/单总线.md
+                - 按键(KEY): 软件开发/SDK/CI110X芯片SDK/components/key.md
+                - 红外控制(IR): 软件开发/SDK/CI110X芯片SDK/components/ir.md
+                - 云端识别服务(ASR ONLINE): 软件开发/SDK/CI110X芯片SDK/components/云端识别服务.md
+                - 日志(LOG): 软件开发/SDK/CI110X芯片SDK/components/LOG日志.md
+                - 调试组件(DBG): 软件开发/SDK/CI110X芯片SDK/components/调试辅助.md
+                - 传感器管理组件: 软件开发/SDK/CI110X芯片SDK/components/sensor.md
+            - 芯片驱动:     
+                - 通用输入输出(GPIO): 软件开发/SDK/CI110X芯片SDK/driver/ci110x_driver/gpio.md
+                - 通用异步收发传输器(UART): 软件开发/SDK/CI110X芯片SDK/driver/ci110x_driver/uart.md
+                - 脉冲宽度调制输出(PWM): 软件开发/SDK/CI110X芯片SDK/driver/ci110x_driver/pwm.md
+                - 模数转换器(ADC): 软件开发/SDK/CI110X芯片SDK/driver/ci110x_driver/adc.md
+                - 通用定时器(TIMER): 软件开发/SDK/CI110X芯片SDK/driver/ci110x_driver/timer.md
+                - 安全数字输入\输出接口(SDIO): 软件开发/SDK/CI110X芯片SDK/driver/ci110x_driver/sdio.md
+                - 音频数字传输总线(IIS): 软件开发/SDK/CI110X芯片SDK/driver/ci110x_driver/iis.md
+                - 集成电路总线(IIC): 软件开发/SDK/CI110X芯片SDK/driver/ci110x_driver/iic.md
+                - 独立看门狗(IWDG): 软件开发/SDK/CI110X芯片SDK/driver/ci110x_driver/iwdg.md
+                - 串行闪存控制器(SPIFLASH): 软件开发/SDK/CI110X芯片SDK/driver/ci110x_driver/spiflash.md
+                - 多媒体音频编解码器(CODEC): 软件开发/SDK/CI110X芯片SDK/driver/ci110x_driver/codec.md
+                - 录音与放音驱动(CAP AND PLAY): 软件开发/SDK/CI110X芯片SDK/driver/ci110x_driver/录音和放音设备.md
+                - 高速缓冲存储器(CACHE): 软件开发/SDK/CI110X芯片SDK/driver/ci110x_driver/cache.md
+                - 通用串行外设接口(SPI): 软件开发/SDK/CI110X芯片SDK/driver/ci110x_driver/spi.md
+            - 第三方驱动:     
+                - 热敏电阻温度传感器: 软件开发/SDK/CI110X芯片SDK/driver/third_device_driver/temperature.md
+                - 手势光感传感器APDS9960: 软件开发/SDK/CI110X芯片SDK/driver/third_device_driver/APDS9960.md
+                - 温湿度传感器DHT11: 软件开发/SDK/CI110X芯片SDK/driver/third_device_driver/DHT11.md
+                - 红外矩阵传感器MLX90620: 软件开发/SDK/CI110X芯片SDK/driver/third_device_driver/MLX90620.md
+                - 激光测距传感器RCWL0801: 软件开发/SDK/CI110X芯片SDK/driver/third_device_driver/RCWL0801.md
+                - 微波雷达传感器RCWL0516: 软件开发/SDK/CI110X芯片SDK/driver/third_device_driver/RCWL0516.md
+                - 灰尘传感器YW51: 软件开发/SDK/CI110X芯片SDK/driver/third_device_driver/YW51.md
+        - CI1122芯片SDK:
+            - 目录: 软件开发/SDK/CI112X芯片SDK/CI112X芯片SDK.md
+            - 开发入门:     
+                - SDK概述: 软件开发/SDK/CI112X芯片SDK/start/CI112XSDK概述.md
+                - SDK Quick Start: 软件开发/SDK/CI112X芯片SDK/start/CI112X_SDK_Quick_Start.md
+                - 命令词和固件制作指南: 软件开发/SDK/CI112X芯片SDK/start/命令词和固件制作指南.md
+                - SDK软件结构: 软件开发/SDK/CI112X芯片SDK/start/SDK软件结构.md
+                - CI112X串口协议: 软件开发/SDK/CI112X芯片SDK/start/CI112X串口协议.md
+                - CI112X I2C 协议: 软件开发/SDK/CI112X芯片SDK/start/CI112X I2C 协议.md
+                - CI112X语义ID说明: 软件开发/SDK/CI112X芯片SDK/start/CI112X语义ID文档说明.md
+                - 内存结构: 软件开发/SDK/CI112X芯片SDK/start/内存结构.md  
+                - FLASH加密功能使用说明: 软件开发/SDK/CI112X芯片SDK/start/FLASH加密功能使用说明.md
+            - 算法使用说明:
+                - 算法概述: 软件开发/SDK/CI112X芯片SDK/start/算法概述.md
+                - 语音识别使用说明: 软件开发/SDK/CI112X芯片SDK/components/语音识别使用说明.md
+                - 语音降噪使用说明: 软件开发/SDK/CI112X芯片SDK/components/语音降噪使用说明.md
+            - SDK组件:
+                - 命令词信息管理模块(command_info): 软件开发/SDK/CI112X芯片SDK/components/命令词信息表.md
+                - 提示音播放器(prompt_player): 软件开发/SDK/CI112X芯片SDK/components/提示音播放器.md
+                - 实时操作系统(FreeRTOS): 软件开发/SDK/CI112X芯片SDK/components/FreeRTOS.md
+                - 音频播放器(AUDIO PLAYER): 软件开发/SDK/CI112X芯片SDK/components/音频播放器.md
+                - 用户数据管理(NV DATA): 软件开发/SDK/CI112X芯片SDK/components/nvdata.md
+                - 存储控制(FLASH CTL): 软件开发/SDK/CI112X芯片SDK/components/flash_control.md
+                - 系统监控(SYS MONITOR): 软件开发/SDK/CI112X芯片SDK/components/系统监控.md
+                - 灯控(LED): 软件开发/SDK/CI112X芯片SDK/components/led.md
+                - 单总线(ONE WIRE): 软件开发/SDK/CI112X芯片SDK/components/单总线.md
+                - 按键(KEY): 软件开发/SDK/CI112X芯片SDK/components/key.md
+                - 红外控制(IR): 软件开发/SDK/CI112X芯片SDK/components/ir.md
+                - 日志(LOG): 软件开发/SDK/CI112X芯片SDK/components/LOG日志.md
+                - 传感器管理组件: 软件开发/SDK/CI112X芯片SDK/components/sensor.md
+            - 芯片驱动:     
+                - 通用输入输出(GPIO): 软件开发/SDK/CI112X芯片SDK/driver/ci112x_driver/gpio.md
+                - 通用异步收发传输器(UART): 软件开发/SDK/CI112X芯片SDK/driver/ci112x_driver/uart.md
+                - 脉冲宽度调制输出(PWM): 软件开发/SDK/CI112X芯片SDK/driver/ci112x_driver/pwm.md
+                - 模数转换器(ADC): 软件开发/SDK/CI112X芯片SDK/driver/ci112x_driver/adc.md
+                - 通用定时器(TIMER): 软件开发/SDK/CI112X芯片SDK/driver/ci112x_driver/timer.md
+                - 音频数字传输总线(IIS): 软件开发/SDK/CI112X芯片SDK/driver/ci112x_driver/iis.md
+                - 集成电路总线(IIC): 软件开发/SDK/CI112X芯片SDK/driver/ci112x_driver/iic.md
+                - 独立看门狗(IWDG): 软件开发/SDK/CI112X芯片SDK/driver/ci112x_driver/iwdg.md
+                - 串行闪存控制器(SPIFLASH): 软件开发/SDK/CI112X芯片SDK/driver/ci112x_driver/spiflash.md
+                - 多媒体音频编解码器(CODEC): 软件开发/SDK/CI112X芯片SDK/driver/ci112x_driver/codec.md
+                - 录音与放音驱动(CAP AND PLAY): 软件开发/SDK/CI112X芯片SDK/driver/ci112x_driver/录音和放音设备.md
+            - 第三方驱动:     
+                - 热敏电阻温度传感器: 软件开发/SDK/CI112X芯片SDK/driver/third_device_driver/temperature.md
+                - 手势光感传感器APDS9960: 软件开发/SDK/CI112X芯片SDK/driver/third_device_driver/APDS9960.md
+                - 温湿度传感器DHT11: 软件开发/SDK/CI112X芯片SDK/driver/third_device_driver/DHT11.md
+                - 红外矩阵传感器MLX90620: 软件开发/SDK/CI112X芯片SDK/driver/third_device_driver/MLX90620.md
+                - 激光测距传感器RCWL0801: 软件开发/SDK/CI112X芯片SDK/driver/third_device_driver/RCWL0801.md
+                - 微波雷达传感器RCWL0516: 软件开发/SDK/CI112X芯片SDK/driver/third_device_driver/RCWL0516.md
+                - 灰尘传感器YW51: 软件开发/SDK/CI112X芯片SDK/driver/third_device_driver/YW51.md
+        - 软件工具: 软件开发/软件工具.md
+        - 启英OTA云: 软件开发/启英OTA云.md
+        - 其它第三方云:
+            - 涂鸦云介绍: 软件开发/其它第三方云/涂鸦云介绍.md
+            - 腾讯云介绍: 软件开发/其它第三方云/腾讯云介绍.md
+    - 产品方案开发:
+        - 离线产品方案: 产品方案开发/离线产品方案.md
+        - AIOT产品方案: 产品方案开发/AIOT产品方案.md
+        - 离在线产品方案: 产品方案开发/离在线产品方案.md
+        - 语音前处理产品方案: 产品方案开发/语音前处理产品方案.md
+    - 产品测试:
+        - 测试设备和工具: 产品测试/测试设备和工具.md
+        - 识别效果测试: 产品测试/识别效果测试.md
+        - 自动化识别测试: 产品测试/自动化识别测试.md
+        - 生产测试: 产品测试/生产测试.md
+        - 可靠性测试: 产品测试/可靠性测试.md
+    - FAQ:
+        - 使用说明: FAQ/使用说明.md
+        - 基本功能和选型: FAQ/基本功能和选型.md
+        - 硬件设计: FAQ/硬件设计.md
+        - 软件设计: FAQ/软件设计.md
+        - 结构设计: FAQ/结构设计.md
+        - 性能和测试: FAQ/性能和测试.md
+        - 平台使用: FAQ/平台使用.md
+        - 商务相关: FAQ/商务相关.md
+    - 语音AI平台:
+        - 语音AI平台使用指南: 语音AI平台/语音AI平台使用指南.md
+        - 语音AI平台使用协议: 语音AI平台/语音AI平台使用协议.md
+    - 样品和批量采购: 样品和批量采购.md
+extra:
+  - search:
+     lang: "jp"
+extra:
+  social:
+    - icon: octicons/cpu-16
+      link: http://www.chipintelli.com
+extra_css: [extra.css]
+extra_javascript:
+    - js/mermaid.js
+    - js/raphael.min.js
+    - js/underscore-min.js
+    - js/sequence-diagram-min.js
+    - js/flowchart.min.js
+    - js/umlconvert.js
+markdown_extensions:
+    - attr_list
+    - admonition
+    - codehilite:
+        guess_lang: false
+        linenums: true
+    - toc:
+        permalink: true
+        anchorlink: false
+        baselevel: 1
+        toc_depth: 1-6
+    - footnotes
+    - meta
+    - def_list
+    - smarty
+    - sane_lists
+    - pymdownx.arithmatex
+    - pymdownx.betterem:
+        smart_enable: all
+    - pymdownx.caret
+    - pymdownx.critic
+    - pymdownx.details
+    - pymdownx.emoji:
+        emoji_generator: !!python/name:pymdownx.emoji.to_png
+    - pymdownx.inlinehilite
+    - pymdownx.magiclink
+    - pymdownx.mark
+    - pymdownx.smartsymbols
+    - pymdownx.superfences:
+        custom_fences: [
+            {name: flow, class: uml-flowchart },
+            {name: sequence, class: uml-sequence-diagram },
+            {name: mermaid, class: mermaid }
+        ]
+    - pymdownx.tasklist
+    - pymdownx.tilde
+copyright: Copyright © 2021 ChipIntelli All rights reserved
